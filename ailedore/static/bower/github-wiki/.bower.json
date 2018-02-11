@@ -1,0 +1,39 @@
+{
+  "name": "github-wiki",
+  "description": "A library to handle Github wikis",
+  "main": [
+    "js/githubwiki.js"
+  ],
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "marked": "https://github.com/Jucyio/marked.git#wiki1"
+  },
+  "devDependencies": {},
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "github",
+    "wiki",
+    "markdown"
+  ],
+  "authors": [
+    "Enguerrand Decorne <decorne.en@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "homepage": "https://github.com/Jucyio/js-github-wiki",
+  "_release": "85b80c3d76",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "85b80c3d76347fd1eec78586c95d78b77096fcbe"
+  },
+  "_source": "https://github.com/Jucyio/js-github-wiki.git",
+  "_target": "*",
+  "_originalSource": "js-github-wiki"
+}

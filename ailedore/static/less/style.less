@@ -1,0 +1,18 @@
+@import "main.less";
+@import "mixins/buttons.less";
+@import "mixins/a.less";
+
+@mainColor: transparent;
+@secondaryColor: #f5f07b;
+@img-url: "/static/img";
+
+html {
+    .setup-sidebar(@mainColor);
+    .magicircles(@mainColor, @secondaryColor);
+}
+
+body
+{
+	background: url("@{img-url}/background.jpg") no-repeat center center fixed;
+	background-size:cover;
+}

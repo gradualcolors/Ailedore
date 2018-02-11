@@ -1,0 +1,20 @@
+{% if game_description %}
+<div class="row">
+  <div class="col-md-6">
+    <p class="big-text about-game-description">
+      {{ game_description }}
+    </p>
+  </div>
+  <div class="col-md-6">
+    {% endif %}
+    {% if game_url %}
+    <a href="{{ game_url }}" target="_blank">
+      {% endif %}
+      <img src="{{ static_url}}img/game.png" class="img-responsive about-game-image">
+      {% if game_url %}
+    </a>
+    {% endif %}
+    {% if game_description %}
+  </div>
+</div>
+{% endif %}
